@@ -1,0 +1,25 @@
+@media screen and (max-width : 1275px){
+    body {
+        overflow:auto;
+      }
+}
+@media screen and (max-width : 897px){
+  .header .header-wrap .logo a{
+    width: 90px;
+    height: 90px;
+    border: 4px solid black;
+  }
+  .header .header-wrap nav ul li a{
+    font-size: 1.4rem;
+  }  
+}
+@media screen and (max-width : 500px){
+  .header .header-wrap .logo a{
+    width: 80px;
+    height: 80px;
+    border: 3px solid black;
+  }
+  .header .header-wrap nav ul li a{
+    font-size: 1.2rem;
+  }  
+}

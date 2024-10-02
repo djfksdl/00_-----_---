@@ -1,0 +1,184 @@
+@charset 'utf-8';
+@font-face {
+  font-family: "RecipeKorea";
+  src: url(../fonts/recipekorea/Recipekorea\ 레코체\ FONT.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gmarket";
+  src: url(../fonts/gmarket_sans/GmarketSansTTF/GmarketSansTTFBold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gmarket";
+  src: url(../fonts/gmarket_sans/GmarketSansTTF/GmarketSansTTFMedium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gmarket";
+  src: url(../fonts/gmarket_sans/GmarketSansTTF/GmarketSansTTFLight.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "AnB";
+  src:url(../fonts/Andrea_Bilarosa/Andrea\ Bellarosa.ttf);
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+/* =============== 공통영역 =========== */
+/* flost 속성 */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner {
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  /* position: relative; */
+}
+body {
+  overflow:hidden;
+  font-family: "Gmarket";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  padding-top: 35px;
+}
+.header .header-wrap{
+  max-width: 1760px;
+  margin: 0 auto ;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+/* 홈버튼 로고 */
+.header .header-wrap .logo{
+  position: relative;
+}
+.header .header-wrap .logo a{
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #eaa640;
+  display: block;
+}
+.header .header-wrap .logo a img{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.header .header-wrap .logo a img:nth-child(1){
+  bottom: 5px;
+  width: 67%;
+}
+.header .header-wrap .logo a img:nth-child(2){
+  bottom: -5px;
+  width: 100%;
+}
+.header .header-wrap .logo a img:nth-child(3){
+  top: 55%;
+  width: 25%;
+}
+
+.header .header-wrap nav{
+  flex-basis: 10%;
+}
+.header .header-wrap nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+}
+.header .header-wrap nav ul li{
+  margin-left: 50px;
+}
+.header .header-wrap nav ul li a{
+  display: block;
+  width: 100%;
+  font-family: "RecipeKorea";
+  /* font-size: 25px; */
+  font-size: 1.56rem;
+  transition: all .2s;
+}
+.header .header-wrap nav ul li a::after{
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #eaa640;
+  border-radius: 10px;
+  margin-top: -50%;
+  margin-left: 75%;
+  opacity: 0;
+}
+.header .header-wrap nav ul li a:hover{
+  color: #fff;
+}
+.header .header-wrap nav ul li a:hover::after{
+  color: #fff;
+  opacity: 1;
+  animation: move .5s linear ;
+}
+@keyframes move {
+  from {
+    /* height: 0px; */
+    transform: translateY(-90px);
+    border-radius: 50px;
+    background-color: #3b8b53;
+  }
+  50% {
+    transform: translateY(0px);
+    border-radius: 10px;
+  }
+  70% {
+    transform: translateY(-10px);
+    border-radius: 50px;
+  }
+  to {
+    /* height: 0; */
+    transform: translateY(0%);
+
+  }
+}
+.SMN_effect-35 a:hover {
+  /* -webkit-animation-name: eff24-move;
+  animation-name: eff24-move;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1 */
+}

@@ -1,0 +1,268 @@
+@charset 'utf-8';
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5b123;
+    
+}
+.main-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.blue_cha{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: scroll 1s linear ;
+}
+@keyframes scroll {
+    0%{transform: translateY(100%);}
+    25%{transform: translateY(0%);}
+    50%{transform: translateY(3%);}
+    75%{transform: translateY(1%);}
+    100%{transform: translateY(0%);}
+}
+
+.blue_cha img{
+}
+
+.blue_cha img:nth-child(1){
+    width: 100%;
+}
+.blue_cha img:nth-child(2){
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    /* width: 75px; */
+    width: 20%;
+    height: auto;
+    /* height: 30px; */
+}
+.card{}
+.card-wrap{
+    width: 1025px;
+    /* width: 53.5%; */
+    /* height: 60%; */
+    height: 580px;
+    background-color: #e7e1cf;
+    border: 10px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 3% 2.3% 0.5% 3%;
+}
+.card-wrap .top-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.card-wrap .top-txt h1{
+    font-family: "RecipeKorea";
+    /* font-size: 72px; */
+    font-size: 4.5rem;
+    border-bottom: 10px solid black;
+}
+.card-wrap .top-txt h2{
+    font-size: 2.25rem;
+}
+.card-wrap p{
+    font-size: 1.87rem;
+    font-weight: 500;
+    margin: 2% 0;
+}
+.card-wrap .bottom-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+}
+.card-wrap .bottom-box .photo{
+    background-color: #eaa640;
+    width: 285px;
+    /* width: 32%; */
+    height: 285px;
+    border: 9px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+.card-wrap .bottom-box .photo .white_cha{
+}
+.card-wrap .bottom-box .photo .white_cha img{
+    /* animation: scroll 1s linear ; */
+}
+.card-wrap .bottom-box .photo .white_cha .w_body{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 80%; */
+}
+.card-wrap .bottom-box .photo .white_cha .w_eyes, .card-wrap .bottom-box .photo .white_cha .w_eyes::before{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 43px;
+    height: 17px;
+    transform: translateX(-50%);
+    background: url(../images/white_cha_eyes.png) no-repeat center center/cover;
+}
+
+.card-wrap .bottom-box .photo .white_cha .w_arms{
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.card-wrap .bottom-box nav{
+    z-index: 1;
+    margin-right: 10%;
+}
+.card-wrap .bottom-box nav ul{}
+.card-wrap .bottom-box nav ul li{
+    font-size: 1.56rem;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    width: 446px;
+    margin: 6% 0;
+}
+.card-wrap .bottom-box nav ul li a{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.card-wrap .bottom-box nav ul li > a > p{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #aaa;
+    margin: 5px 30%;
+    opacity: 0;
+    animation: sparkle 1s step-end infinite;
+    animation-delay: 2s;
+}
+@keyframes sparkle {
+    50%{
+      opacity: 1;
+    }
+  }
+.card-wrap .bottom-box nav ul li .check{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-right: 1%;
+    position: relative;
+    margin-right: 23%;
+}
+.card-wrap .bottom-box nav ul li a span{
+    font-family: "RecipeKorea";
+    font-size: 1.56rem; 
+}
+/* .card-wrap .bottom-box nav ul li .check:hover{
+    background: url(../images/check.png) no-repeat center center/cover;
+    width: 20px;
+    height: 20px;
+} */
+.card-wrap .bottom-box nav ul li .check-icon{
+    /* display: inline-block; */
+    display: none;
+    width: 20px;
+    height: 35px;
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;
+    transform: rotate(45deg);
+    position: absolute;
+    top:-120%;
+    left: 0;
+    
+}
+.card-wrap .bottom-box nav ul li .check:hover .check-icon{
+    display: inline-block;
+}
+.card-wrap .bottom-box nav ul li .check em{
+    margin-left: 20px;
+}
+
+
+.card-wrap .sign{
+    font-family: "AnB";
+    font-size: 9.31rem;
+    color: #cfcabd;
+    margin: 0;
+    display: inline-block;
+    transform: rotate(-20deg);
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+}
+.green_cha{
+    position: absolute;
+    animation: scroll2 1s linear ;
+    top: 0;
+    right: 0px;
+    z-index: 1;
+}
+@keyframes scroll2 {
+    0%{transform: translateY(-100%);}
+    25%{transform: translateY(0%);}
+    50%{transform: translateY(-30%);}
+    75%{transform: translateY(-10%);}
+    100%{transform: translateY(0%);}
+    
+}
+.green_cha img{
+    
+}
+
+.green_cha .g_body{
+    /* 몸통 */
+}
+.green_cha .g_ra{
+    position: absolute;
+    top: 62%;
+    right: 10%;
+    /* 오른팔 */
+    animation: bell 1.2s linear ;
+    /* transform-origin: 0 0; */
+    
+}
+@keyframes bell{
+    /* 0%, 50%{
+      transform: rotate(0deg);
+      }
+    60%, 80% {
+      transform: rotate(50deg);
+    }
+    10%, 30%{
+      transform: rotate(-50deg);
+    } */
+    0%, 20%, 80% {
+        transform-origin: 0 0;
+        transform: rotate(0deg);
+     }
+    40%, 90% {
+        transform-origin: 0 0;
+        transform: rotate(30deg);
+     }
+    10% ,60% {
+        transform-origin: 0 0 ;
+        transform: rotate(-30deg);
+     }
+  }
+.green_cha .g_le{
+    position: absolute;
+    top: 52%;
+    right: 70%;
+    z-index: -1;
+    /* 왼팔 */
+    animation: bell 1.3s linear ;
+}
+.green_cha .g_eyes{
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    z-index: 3;
+    /* 눈 */
+}
+

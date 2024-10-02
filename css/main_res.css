@@ -1,0 +1,403 @@
+@media screen and (max-width : 1800px){
+    .card-wrap .bottom-box .photo{
+        /* width: 250px;
+        height: 250px; */
+    }
+}
+@media screen and (max-width : 1735px) {
+    body, html{
+        overflow: hidden;
+    }
+    .blue_cha img:nth-child(1){
+        width: 80%;
+    }
+    .blue_cha img:nth-child(2){
+        transform: translate(-50%);
+        width: 15%;
+    }
+    .card-wrap{
+        width: 890px;
+        height: 509px;
+    }
+    .card-wrap .bottom-box .photo{
+        width: 230px;
+        height: 208.5px;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_body{
+        width: 90%;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_eyes, .card-wrap .bottom-box .photo .white_cha .w_eyes::before{
+        top: 50%;
+    }
+    .card-wrap .bottom-box nav ul li{
+        width: 430px;
+        margin: 6% 0;
+    }
+    .green_cha {
+        /* right: -4.5%; */
+        right: -80px;
+        top: -30px;
+    }
+    .green_cha .g_body{
+        width: 80%;
+    }
+    .green_cha .g_ra{
+        top: 63%;
+        right: 25%;
+        width: 16%;
+    }
+    .green_cha .g_le{
+        top: 52%;
+        right: 65%;
+        width: 16%;
+    }
+    .green_cha .g_eyes{
+        top: 65%;
+        right: 57%;
+    }
+}
+@media screen and (max-width:1500px) {
+    .blue_cha img:nth-child(1){
+        width: 75%;
+    }
+    .blue_cha img:nth-child(2){
+        transform: translate(-60%);
+    }
+    .green_cha {
+        right: -100px;
+    }
+    .green_cha .g_body{
+        width: 75%;
+    }
+    .green_cha .g_ra{
+        top: 60%;
+        right: 29%;
+        width: 15%;
+    }
+    .green_cha .g_le{
+        top: 50%;
+        right: 67%;
+        width: 15%;
+    }
+    .green_cha .g_eyes{
+        top: 63%;
+        right: 57%;
+    }
+}
+@media screen and (max-width:1400px){
+    .green_cha {
+        right: -120px;
+    }
+    .green_cha .g_body{
+        width: 70%;
+    }
+    .green_cha .g_ra{
+        top: 58%;
+        right: 33%;
+        width: 13%;
+    }
+    .green_cha .g_le{
+        top: 50%;
+        right: 70%;
+        width: 13%;
+    }
+    .green_cha .g_eyes{
+        top: 60%;
+        right: 60%;
+    }
+    .card-wrap{
+        width: 830px;
+        height: 475px;
+    }
+    .card-wrap .sign{
+        font-size: 8.5rem;
+        bottom: 22%;
+        right: 7%;
+    }
+    .card-wrap .top-txt h1{
+        font-size: 4rem;
+    }
+    .card-wrap .top-txt h2{
+        font-size: 2rem;
+    }
+    .card-wrap p{
+        font-size: 1.5rem;
+    }
+    .card-wrap .bottom-box .photo{
+        width: 230px;
+        height: 208.5px;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_body{
+        width: 90%;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_eyes, .card-wrap .bottom-box .photo .white_cha .w_eyes::before{
+        top: 55%;
+    }
+    .card-wrap .bottom-box nav ul li{
+        width: 400px;
+        margin: 6% 0;
+        font-size: 1.5rem;
+    }
+    .card-wrap .bottom-box nav ul li a span{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:1300px){
+    .card-wrap{
+        width: 700px;
+        height: 400px;
+    }
+    .card-wrap .sign{
+        font-size: 6.5rem;
+        bottom: 22%;
+    }
+    .card-wrap .top-txt h1{
+        font-size: 3rem;
+    }
+    .card-wrap p{
+        font-size: 1.3rem;
+    }
+    .card-wrap .bottom-box .photo{
+        height: 191px;
+    }
+    .card-wrap .bottom-box nav ul li{
+        width: 310px;
+        margin: 6% 0;
+        font-size: 1.2rem;
+    }
+    .card-wrap .bottom-box nav ul li a span{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:1155px){
+    .blue_cha img:nth-child(1){
+        width: 65%;
+    }
+    .blue_cha img:nth-child(2){
+        left: 42%;
+        width: 14%;
+    }
+    .green_cha {
+        right: -160px;
+    }
+    .green_cha .g_body{
+        width: 60%;
+    }
+    .green_cha .g_ra{
+        top: 55%;
+        right: 43%;
+        width: 12%;
+    }
+    .green_cha .g_le{
+        top: 47%;
+        right: 75%;
+        width: 12%;
+    }
+    .green_cha .g_eyes{
+        right: 65%;
+        width:70px;
+    }
+}
+@media screen and (max-width:1000px){
+    .card-wrap{
+        border: 7px solid black;
+    }
+    .card-wrap .top-txt h1{
+        border-bottom: 7px solid black;
+    }
+    .card-wrap .bottom-box .photo{
+        border: 7px solid black;
+        height: 209px;
+    }
+}
+@media screen and (max-width:710px){
+    .blue_cha img:nth-child(1){
+        width: 60%;
+    }
+    .blue_cha img:nth-child(2){
+        left: 40%;
+        width: 13%;
+    }
+    .green_cha {
+        right: -180px;
+    }
+    .green_cha .g_body{
+        width: 55%;
+    }
+    .green_cha .g_ra{
+        top: 55%;
+        right: 48%;
+        width: 11%;
+    }
+    .green_cha .g_le{
+        top: 47%;
+        right: 78%;
+        width: 11%;
+    }
+    .green_cha .g_eyes{
+        right: 67%;
+        width:70px;
+    }
+    .card-wrap{
+        width: 400px;
+        height: 600px;
+    }
+    .card-wrap .sign{
+        font-size: 5.5rem;
+        right: 15%;
+        bottom: 17%;
+    }
+    .card-wrap .top-txt{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .card-wrap .top-txt h1{
+       font-size: 2.6rem;
+    }
+    .card-wrap .top-txt h2{
+        margin-bottom: 4%;
+        font-size: 1.7rem;
+    }
+    .card-wrap p{
+        text-align: center;
+        line-height: 2rem;
+    }
+    .card-wrap .top-txt br{
+        display: none;
+    }
+    .card-wrap .bottom-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-wrap .bottom-box .photo{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10%;
+    }
+    .card-wrap .bottom-box nav{
+        margin-right: 0;
+    }
+    .card-wrap .bottom-box nav ul li{
+        /* width: 310px; */
+        margin: 2% 0;
+        font-size: 1.3rem;
+        white-space: nowrap;
+    }
+    .card-wrap .bottom-box nav ul li a{
+        margin-right: 4%;
+    }
+    .card-wrap .bottom-box nav ul li a p{
+        margin: -5% 30%;
+        /* line-height: 1.5rem; */
+    }
+}
+@media screen and (max-width:675px){
+    .card-wrap{
+        width: 350px;
+        height: 550px;
+        border: 5px solid black;
+    }
+    .card-wrap .sign{
+        font-size: 4.5rem;
+        right: 15%;
+        bottom: 17%;
+    }
+    .card-wrap .top-txt h1{
+       font-size: 2.3rem;
+    }
+    .card-wrap .top-txt h2{
+        margin-bottom: 4%;
+        font-size: 1.4rem;
+    }
+    .card-wrap p{
+        text-align: center;
+        line-height: 2rem;
+    }
+    .card-wrap .bottom-box .photo{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10%;
+        border: 5px solid black;
+    }
+    .card-wrap .bottom-box nav ul li{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_eyes{
+        width: 35px;
+        height: auto;
+    }
+}
+@media screen and (max-width:595px){
+    .blue_cha{
+        bottom: -10px;
+    }
+    .blue_cha img:nth-child(1){
+        width: 40%;
+    }
+    .blue_cha img:nth-child(2){
+        left: 25%;
+        bottom: 45%;
+        width: 10%;
+    }
+    .green_cha {
+        right: -250px;
+        top: -50px;
+    }
+    .green_cha .g_body{
+        width: 38%;
+    }
+    .green_cha .g_ra{
+        top: 55%;
+        right: 65%;
+        width: 8%;
+    }
+    .green_cha .g_le{
+        top: 45%;
+        right: 85%;
+        width: 8%;
+    }
+    .green_cha .g_eyes{
+        right:78%;
+        width:55px;
+    }
+    .card-wrap{
+        width: 300px;
+        height: 440px;
+        padding: 7% 2.3% 0% 3%;
+    }
+    .card-wrap .sign{
+        font-size: 4rem;
+    }
+    .card-wrap .top-txt h1{
+       font-size: 2rem;
+       border-bottom: 5px solid black;
+    }
+    .card-wrap .top-txt h2{
+        font-size: 1.2rem;
+        margin-bottom: 4%;
+    }
+    .card-wrap p{
+        text-align: center;
+        line-height: 1.2rem;
+        font-size: 1.1rem;
+        margin: 3% 0;
+    }
+    .card-wrap .bottom-box .photo{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 11%;
+    }
+    .card-wrap .bottom-box .photo .white_cha .w_eyes{
+        width: 30px;
+        height: auto;
+    }
+    .card-wrap .bottom-box nav ul li{
+        width: 250px;
+        font-size: 1rem;
+    }
+    .card-wrap .bottom-box nav ul li a span{
+        font-size: 1rem;
+    }
+    
+}
